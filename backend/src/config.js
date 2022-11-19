@@ -45,7 +45,7 @@ external_url: "", // https://codecats.xyz Replace with your website or remove th
 // ** REQUIRED **
 const AUTH = process.env.NFTPORT_API_KEY; // Set this in the .env file to prevent exposing your API key when pushing to Github
 const LIMIT = 2; // Your API key rate limit
-const CHAIN = 'goerli'; // only rinkeby or goerli, polygon, or ethereum
+const CHAIN = 'polygon'; // only rinkeby or goerli, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'The King of Arachnids';
@@ -53,15 +53,15 @@ const CONTRACT_SYMBOL = 'TKOA';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xEA17f3394312ff2a4d1f423A1Bb3B4CDFd39a742'; // YOUR WALLET ADDRESS HERE
 const TREASURY_ADDRESS = '0xEA17f3394312ff2a4d1f423A1Bb3B4CDFd39a742'; // YOUR WALLET ADDRESS HERE
-const MAX_SUPPLY = 5000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.001; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MAX_SUPPLY = 10000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MINT_PRICE = 8; // Minting price per NFT. Goerli = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2022-11-18T09:30:01+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2022-11-11T09:30:01+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE =null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 700; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xEA17f3394312ff2a4d1f423A1Bb3B4CDFd39a742"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
