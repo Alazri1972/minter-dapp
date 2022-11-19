@@ -3,7 +3,7 @@ const chain = 'goerli'; // goerli, polygon, or ethereum
 
 const welcome_h1 = "Welcome to The King of Arachnids NFT Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'The King of Arachnids NFT Project is a developed by Seven Galaxies';
+const welcome_p = 'The King of Arachnids NFT Project is developed by Seven Galaxies';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Public Minting Open!!";
