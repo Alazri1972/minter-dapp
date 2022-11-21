@@ -64,7 +64,7 @@ const PUBLIC_MINT_START_DATE = "2022-11-11T09:30:01+00:00"; // This is required.
 const PRESALE_MINT_START_DATE =null; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 700; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
 const ROYALTY_ADDRESS = "0xEA17f3394312ff2a4d1f423A1Bb3B4CDFd39a742"; // Address that will receive the royalty
-const BASE_URI = "https://the-king-of-arachnids.netlify.app/"; // only update if you want to manually set the base uri
+const BASE_URI = "ipfs://bafybeiblziv6pl7w4rcdmi42wdv4owtvk7gjvqzlgn2pnjyxfuj6blpicu/"; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
 
